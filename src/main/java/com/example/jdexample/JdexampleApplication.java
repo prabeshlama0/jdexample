@@ -15,6 +15,12 @@ public class JdexampleApplication {
 	public String get(){
 	return 	"Jenkins to Docker";
 	}
+
+
+	@GetMapping("/get")
+	public String get2(){
+		return 	"Jenkins to Docker";
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(JdexampleApplication.class, args);
 
